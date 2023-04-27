@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: var(--bs-link-hover-color);
+    --bs-nav-link-disabled-color: #000 !important;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: #EAF6EB !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.me-auto .link:hover{
+    font-weight: 600 !important;
+    color: #788a6f;
+}
+.navbar-text{
+    margin-left: 10px;
+    font-weight: 500;
+    color: #000;
+}
+
+/* loginform */
+.login-wrap{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.login-form{
+    text-align: left;
+}
+.login-submit{
+    text-align: right;
+}
+.login-form input{
+    height: 42px;
+    margin-bottom: 25px;
+}
+.btn-primary{
+    background-color: #EAF6EB;
+    color: #000;
+    border: none;
+}
+.btn-primary:hover{
+    background-color: #788a6f;
+}
+.btn-primary{
+    --bs-btn-active-bg: #788a6f;
+}
+
+
+.boardlist-wrap{
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.card{
+    margin: 0 auto;
+}
+.boardlist-wrap a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Pretendard-Regular';
+    font-weight: 400;
+}
+.boardlist-wrap a:hover{
+    color: #788a6f;
+}
+
+.boardwrap{
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #EAF6EB;
+    max-width: 1500px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.boardwrap h1{
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+    font-weight: 500;
+}
+.boardwrap span{
+    margin-right: 10px;
+}
